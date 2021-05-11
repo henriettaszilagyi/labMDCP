@@ -27,9 +27,9 @@ function resetOnce() {
 }
 </script>
   <body>
-  <button onclick="alertCookie()">Show cookies</button>
-  <button onclick="alertCookieValue()">Show cookie value</button>
-  <button onclick="doOnce()">Only do something once</button>
-  <button onclick="resetOnce()">Reset only once cookie</button>
+  <button onclick="alertCookie()">Show cookies</button></break>
+  <button onclick="alertCookieValue()">Show cookie value</button></break>
+  <button onclick="doOnce()">Only do something once</button></break>
+  <button onclick="resetOnce()">Reset only once cookie</button></break>
 
 </body>
