@@ -1,4 +1,5 @@
 <script> 
+  allCookies = document.cookie;
   document.cookie = "session=laboratorul 10-11";
   document.cookie = "favorite_task=collect Data from you"; 
   function alertCookie() 
