@@ -38,7 +38,19 @@ if (document.cookie.split(';').some(function(item) {
 if (document.cookie.split(';').some((item) => item.trim().startsWith('reader='))) {
     console.log('The cookie "reader" exists (ES6)')
 }
+//ES5
 
+if (document.cookie.split(';').some(function(item) {
+    return item.indexOf('reader=1') >= 0
+})) {
+    console.log('The cookie "reader" has "1" for value')
+}
+
+//ES2016
+
+if (document.cookie.split(';').some((item) => item.includes('reader=1'))) {
+    console.log('The cookie "reader" has "1" for value')
+}
 </script>
   <body>
   <button onclick="alertCookie()">Show cookies</button><break/>
