@@ -6,4 +6,4 @@
   alert(document.cookie); } 
 </script>
   <body> Bine ai venit la lab <button onclick="alertCookie()">Show cookies</button> 
-Cookies:</body>
+</body>
