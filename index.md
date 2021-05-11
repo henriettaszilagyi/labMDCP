@@ -41,9 +41,10 @@ if (document.cookie.split(';').some((item) => item.includes('reader=1'))) {
 }
 </script>
   <body>
+  Bun venit pe pagina cu prajituri!
   <button onclick="alertCookie()">Show cookies</button><break/>
   <button onclick="alertCookieValue()">Show cookie value</button><break/>
   <button onclick="doOnce()">Only do something once</button><break/>
   <button onclick="resetOnce()">Reset only once cookie</button><break/>
-
+Szilagyi Henrietta-Andrea
 </body>
