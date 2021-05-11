@@ -22,10 +22,14 @@ function doOnce() {
     document.cookie = "doSomethingOnlyOnce=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
   }
 }
-
+function resetOnce() {
+  document.cookie = "doSomethingOnlyOnce=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+}
 </script>
   <body>
   <button onclick="alertCookie()">Show cookies</button>
   <button onclick="alertCookieValue()">Show cookie value</button>
   <button onclick="doOnce()">Only do something once</button>
+  <button onclick="resetOnce()">Reset only once cookie</button>
+
 </body>
